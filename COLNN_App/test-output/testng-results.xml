@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38754" started-at="2021-06-15T20:29:12Z" finished-at="2021-06-15T20:29:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38754" started-at="2021-06-15T20:29:12Z" finished-at="2021-06-15T20:29:50Z">
+      <class name="test.AddLibraryTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddLibraryTest@7fac631b]" name="setup" is-config="true" duration-ms="21833" started-at="2021-06-15T20:28:50Z" finished-at="2021-06-15T20:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userCanAddLibrary()[pri:0, instance:test.AddLibraryTest@7fac631b]" name="userCanAddLibrary" duration-ms="35622" started-at="2021-06-15T20:29:12Z" finished-at="2021-06-15T20:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddLibrary -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.AddLibraryTest@7fac631b]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-06-15T20:29:47Z" finished-at="2021-06-15T20:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanAddLibrary status=SUCCESS method=AddLibraryTest.userCanAddLibrary()[pri:0, instance:test.AddLibraryTest@7fac631b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:test.AddLibraryTest@7fac631b]" name="restartApp" is-config="true" duration-ms="3091" started-at="2021-06-15T20:29:47Z" finished-at="2021-06-15T20:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.AddLibraryTest@7fac631b]" name="teardown" is-config="true" duration-ms="1052" started-at="2021-06-15T20:29:51Z" finished-at="2021-06-15T20:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.AddLibraryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
